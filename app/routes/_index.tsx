@@ -12,7 +12,7 @@ import {HeroSlider} from '~/components/HeroSlider';
 import { Testimonials } from '~/components/Testimonials';
 import '~/assets/styles/app.css';
 export const meta: Route.MetaFunction = () => {
-  return [{title: 'Hydrogen | Home'}];
+  return [{title: 'Hydrogen Home | Home'}];
 };
 
 export async function loader(args: Route.LoaderArgs) {
